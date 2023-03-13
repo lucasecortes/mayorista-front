@@ -4,7 +4,8 @@ import WebsiteLayout from './layouts/WebsiteLayout';
 function App() {
   return (
     <div>
-      <WebsiteLayout />
+      <WebsiteLayout>
+      </WebsiteLayout>
     </div>
   );
 }
