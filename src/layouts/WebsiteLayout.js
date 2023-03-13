@@ -1,12 +1,11 @@
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import UnderConstruction from '../pages/UnderConstruction'
 
-export default function WebsiteLayout() {
+export default function WebsiteLayout(props) {
   return (
     <div>
         <Header />
-        <UnderConstruction />
+        { props.children }
         <Footer />
     </div>
   )
