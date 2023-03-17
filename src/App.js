@@ -1,12 +1,21 @@
 import './App.css';
-import WebsiteLayout from './layouts/WebsiteLayout';
-import UnderConstruction from './pages/UnderConstruction'
+import Hero from './pages/Hero';
+import UnderConstruction from './pages/UnderConstruction';
+import WebsiteLayout from './layouts/WebsiteLayout'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <WebsiteLayout>
-      <UnderConstruction />
-    </WebsiteLayout>
+    <>
+      <WebsiteLayout>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Hero />} />
+            <Route path='/*' element={<UnderConstruction />} />
+          </Routes>
+        </BrowserRouter>
+      </WebsiteLayout>
+    </>
   );
 }
 
