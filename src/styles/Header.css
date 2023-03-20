@@ -1,8 +1,13 @@
-header {
+.Header-container {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     display: flex;
     justify-content: space-around;
     min-height: 10vh;
+}
+
+.Header-logo {
+    border-radius: 10px;
+    width: 70px;
 }
