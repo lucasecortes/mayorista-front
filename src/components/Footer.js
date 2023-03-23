@@ -4,7 +4,7 @@ import { Link as LinkRouter } from 'react-router-dom'
 export default function Footer() {
   const pages = [
     { name: 'Home', to: '/' },
-    { name: 'Products', to: '/products' },
+    { name: 'Groceries', to: '/groceries' },
     { name: 'Contact', to: '/contact' }
   ]
 
