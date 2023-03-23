@@ -1,0 +1,11 @@
+.Groceries-container {
+    align-items: center;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    font-size: larger;
+    font-weight: 800;
+    font-style: oblique;
+}
